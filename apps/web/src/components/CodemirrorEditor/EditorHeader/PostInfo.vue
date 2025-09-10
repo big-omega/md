@@ -5,7 +5,7 @@ import { CheckboxIndicator, CheckboxRoot, Primitive } from 'radix-vue'
 import { useStore } from '@/stores'
 
 const store = useStore()
-const { output, editor } = storeToRefs(store)
+// const { output, editor } = storeToRefs(store)
 
 const dialogVisible = ref(false)
 const extensionInstalled = ref(false)
