@@ -2,9 +2,7 @@
 import type { Post, PostAccount } from '@md/shared/types'
 import { Check, Info } from 'lucide-vue-next'
 import { CheckboxIndicator, CheckboxRoot, Primitive } from 'radix-vue'
-import { useStore } from '@/stores'
 
-const store = useStore()
 // const { output, editor } = storeToRefs(store)
 
 const dialogVisible = ref(false)
