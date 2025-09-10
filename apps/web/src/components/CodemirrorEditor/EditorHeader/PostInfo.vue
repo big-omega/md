@@ -119,9 +119,9 @@ onBeforeMount(() => {
 <template>
   <Dialog v-model:open="dialogVisible" @update:open="onUpdate">
     <DialogTrigger>
-      <Button v-if="!store.isMobile" variant="outline" @click="prePost">
+      <!-- <Button v-if="!store.isMobile" variant="outline" @click="prePost">
         发布
-      </Button>
+      </Button> -->
     </DialogTrigger>
     <DialogContent>
       <DialogHeader>
