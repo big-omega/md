@@ -23,7 +23,7 @@ const form = ref<Post>({
 
 const allowPost = computed(() => extensionInstalled.value && form.value.accounts.some(a => a.checked))
 
-async function prePost() {
+/* async function prePost() {
   if (extensionInstalled.value && allAccounts.value.length === 0) {
     await getAccounts()
   }
@@ -58,7 +58,7 @@ async function prePost() {
       ...auto,
     }
   }
-}
+} */
 
 declare global {
   interface Window {
